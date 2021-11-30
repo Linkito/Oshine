@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300;1,400&family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+:root{
+	--color-texto:#808080;
+	--color-verde:#28D1A2;
+	--color-gris:#757575;
+	--color-blanco:#FFFFFF;
+	--color-titulos:#222222;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+header{
+	background-color: #000000;
+	padding: 20px 0;
+}
+#hero{
+	background-image: url("../img/hero-home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+	padding: 12% 0;
+}
+#hero h1{
+	font-size: 65px;
+	font-weight: 300;
+}
+#hero p{
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#hero .btn{
+	border-radius: 0;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+#hero .btn:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+	border-color: #000000;
+	border: 1px solid #000000;
+}
+.titulo{
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #222222;
+}
+.section{
+	padding: 5% 0;	
+}
+#we-are h5{
+	font-family: 'Crimson Pro', serif;
+	font-size: 15px;
+	text-align: center;
+	color: #000000;
+	font-style: italic;
+}
+#we-are p{
+	font-size: 18px;
+	text-align: center;
+	width: 45%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.btn-oshine{
+	background-color: #28d1a2;
+	color: #FFFFFF;
+	border-radius: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 15px 40px;
+}
+.btn-oshine:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	border:1px solid #000000;
+}
+#stunning{
+	background-color: #F4F4F4;
+	text-align: center;
+}
+.subtitulo{
+	font-family: 'Crimson Pro', serif;
+	font-size: 16px;
+	color: #757575;
+	text-align: center;
+	margin-bottom: 40px;
+	font-style: italic;
+}
+#stunning h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #222222;
+	margin-bottom: 20px;
+}
+#stunning p{
+	font-size: 15px;
+}
+#stunning i{
+	color: #28D1A2;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.social-nav i{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: var(--color-verde);
+	color: #FFFFFF;
+	border-radius: 100%;
+}
+.social-nav .nav-link{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+#hero-page{
+	color: #FFFFFF;
+	text-align: center;
+}
+#hero-page h4{
+	font-size: 14px;
+	font-style: italic;
+}
+#hero-page h1{
+	font-size: 55px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#hero-page p{
+	width: 50%;
+	margin: auto;
+	font-size: 18px;
+}
+.bg-contact{
+	background-image: url("../img/bg-contact.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.bg-about{
+	background-image: url("../img/hero-about.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	padding: 10% 0;
+}
+#contact h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+}
+#contact p{
+	font-size: 16px;
+}
+#contact ul{
+	font-size: 16px;
+}
+.list-contact i{
+	color: var(--color-verde);
+	padding-right: 40px;
+}
+.list-social a{
+	color: #666666;
+}
+.list-social a:hover{
+	color: var(--color-verde);
+}
+.list-social i{
+	font-size: 16px;
+}
